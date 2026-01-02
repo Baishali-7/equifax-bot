@@ -8,6 +8,7 @@ import Location from "../components/Location";
 import ComparisonTable from "../components/Comparison";
 import ContactSection from "../components/Contact";
 import Footer from "../components/Footer";
+import ErrorChecklist from "../components/ErrorChecklist";
 
 const Preview = () => {
   return (
@@ -16,9 +17,11 @@ const Preview = () => {
       <HeadSection />
       <PlatformSection />
       <ScoreCalculator />
+      <ErrorChecklist />
       <Location />
       <ComparisonTable />
       <ContactSection />
+
       <Footer />
     </div>
   );

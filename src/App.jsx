@@ -6,12 +6,17 @@ import HeroSection from "./components/Header";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HeadSection from "./components/HeadSection";
 import Preview from "./pages/Preview";
+import ErrorChecklist from "./components/ErrorChecklist";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Preview />,
+    },
+    {
+      path: "/error",
+      element: <ErrorChecklist />,
     },
   ]);
   return (
