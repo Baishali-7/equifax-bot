@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import HeadSection from "../components/HeadSection";
-import Progress from "../components/PROGRESS.JSX";
 import PlatformSection from "../components/Platform";
 import ScoreCalculator from "../components/ScoreCalculator";
 import Location from "../components/Location";
